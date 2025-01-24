@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as r}from"./chunks/framework.BxW8Wou5.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"frontend/algorithm.md","filePath":"frontend/algorithm.md"}'),a={name:"frontend/algorithm.md"};function o(n,s,c,i,d,m){return r(),e("div")}const p=t(a,[["render",o]]);export{l as __pageData,p as default};
