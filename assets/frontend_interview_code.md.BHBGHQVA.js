@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as n}from"./chunks/framework.CaP4_xUZ.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"frontend/interview/code.md","filePath":"frontend/interview/code.md"}'),o={name:"frontend/interview/code.md"};function r(a,c,d,i,s,f){return n(),t("div")}const m=e(o,[["render",r]]);export{_ as __pageData,m as default};
