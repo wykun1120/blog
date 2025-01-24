@@ -8,5 +8,6 @@
     "build": "vitepress build",
     "preview": "vitepress preview docs"
   },
-  "type": "module"
+  "type": "module",
+  "repository": "https://github.com/wykun1120/blog.git"
 }

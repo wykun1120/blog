@@ -3,11 +3,11 @@ name: Deploy Vitepress App to GitHub Pages
 on:
   push:
     branches:
-      - main # 你可以根据需要修改为其他分支
+      - main
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Checkout 🛎️
@@ -22,4 +22,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
           branch: gh-pages
-          folder: .vitepress/dist # 假设你的构建输出目录是 build
+          folder: .vitepress/dist
