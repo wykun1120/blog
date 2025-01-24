@@ -8,7 +8,8 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-24.04
-
+    permissions:
+      contents: read
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2
